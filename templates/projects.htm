@@ -1,0 +1,33 @@
+{% extends 'header.htm' %}
+
+{% block title %}
+
+PROJECTS | PORTFOLIO
+
+{% endblock title %}
+
+{% block content %}
+{% include "procNavbar.htm" %}
+<div class="container">
+    <h1 class="display-4 text-center shadoww " style="margin-top: 80px;margin-bottom: 20px; color: rgb(197, 0, 0);">MY PROJECTS</h1>
+    <div class="row justify-content-around">
+        {% if project %}
+        {% for i in project %}
+        <div class="box card text-white bg-secondary mb-3 bgg" data-aos="fade-up" data-aos-duration="1000" style="max-width: 18rem;">
+            <div class="card-header text-center"><a href="{{i.link}}" target="_blank" class="btn w-100  gg" style="background-color: rgb(192,0,0); color: white !important; "><i class="fa fa-github"></i> GITHUB</a>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title text-center servicetitle">{{i.Type}}</h5>
+              <p class="card-text text-center " style="">{{i.projectName}}</p>
+            </div>
+        </div>
+        {% endfor %}
+
+    </div>
+    {% else %}
+    <h1 class="display-4 text-center shadoww" style="margin-top: 290px; color: rgb(197, 0, 0) !important;">NO PROJECTS YET UPLOADED</h1>
+    {% endif %}
+
+</div>
+
+{% endblock %}

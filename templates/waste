@@ -1,0 +1,13 @@
+<div class="card text-white bg-secondary mb-3 bgg" data-aos="fade-right" data-aos-duration="1000" style="max-width: 18rem;">
+    <div class="card-header text-center">API DEVELOPMENT</div>
+    <div class="card-body">
+      <p class="card-text text-center" style="">
+        API development crafts bridges between different software systems, allowing them to communicate, share data, and enhance functionality seamlessly and efficiently.</p>
+    </div></div>
+
+    <div class="card text-white bg-secondary mb-3 bgg" data-aos="fade-right" data-aos-duration="1000" style="max-width: 18rem;">
+        <div class="card-header text-center">FULLSTACK DEVELOPMENT</div>
+        <div class="card-body">
+          <p class="card-text text-center" style="">
+            Full-stack development encompasses both frontend and backend, enabling the creation of complete, interactive websites with seamless user experiences and robust functionality.</p>
+        </div></div>
